@@ -47,11 +47,10 @@
           </div>
     </form>
     
-    <div class="btn">
+    <div class="btn d-flex justify-content-center">
       <button type="button" class="btn btn-success" onclick="salvarColaborador()">Salvar</button>
       <button type="button" class="btn btn-primary"  data-bs-toggle="modal"  data-bs-target="#pesquisarColaborador">Pesquisar</button>
-    </div>
-      
+    </div> 
 
     <div class="modal fade" id="pesquisarColaborador" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
@@ -66,9 +65,11 @@
                 <label for="nameBusca" class="col-form-label">Informe o nome:</label>
                 <input type="text" class="form-control" id="nameBusca">
               </div>
-              <button type="button" class="btn btn-success" onclick="pesquisarColaborador()">Buscar</button>
+              <div class=" d-flex justify-content-end">
+                <button type="button" class="btn btn-success btn" onclick="pesquisarColaborador()">Buscar</button>
+              </div>
             </form>
-    
+            <h2>       </h2>
             <div style="height: 300px;overflow: scroll;">
               <table class="table table-bordered" id="tabelaresultados">
                 <thead>
@@ -86,7 +87,7 @@
               </table>
             </div>
             </div>
-          <div class="modal-footer">
+          <div class="modal-footer btn d-flex justify-content-center">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
           </div>
         </div>
