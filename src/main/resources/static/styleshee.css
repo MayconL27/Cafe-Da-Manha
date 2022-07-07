@@ -1,8 +1,24 @@
-html {
-    margin-top: 10%;
-    margin-left: auto;
-    margin-right: auto; 
-    width: 500px;  
+body {
+    background: rgb(82, 132, 132);
+    font: normal 15pt Arial;
 }
+header {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 3%;
+}
+section {
+    background: white;
+    border-radius: 18px;
+    padding: 15px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.555);
+}
+footer {
+    color: rgb(250, 250, 250);
+    text-align: center;
+    font-style: italic;
+    
 
-
+}
