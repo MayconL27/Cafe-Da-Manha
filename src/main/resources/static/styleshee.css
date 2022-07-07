@@ -1,6 +1,8 @@
 body {
-    background: rgb(82, 132, 132);
+    background-image: url(/img/cafedamanha.jpg);
     font: normal 15pt Arial;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 section {
     background: white;
