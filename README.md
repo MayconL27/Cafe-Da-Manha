@@ -1,5 +1,5 @@
 # Cafe-Da-Manha
-❌ Incompleto
+
 Desafio Unidac - Grupo WL
 Realizamos café da manhã constantemente e sempre há conflito no merge kkkk
 
